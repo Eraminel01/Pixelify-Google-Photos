@@ -50,7 +50,7 @@ jobs:
       run: mv ${{ github.workspace }}/app/build/outputs/apk/release/app-release-unsigned-signed.apk ${{ github.workspace }}/app/build/outputs/apk/release/Pixelify-Google-Photos-${{ env.VERSION_NAME }}-${{ env.VERSION }}.apk
 
     - name: Upload built apk
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: Pixelify-Google-Photos-${{ env.VERSION_NAME }}-${{ env.VERSION }}
         path: ${{ github.workspace }}/app/build/outputs/apk/release/Pixelify-Google-Photos-${{ env.VERSION_NAME }}-${{ env.VERSION }}.apk
