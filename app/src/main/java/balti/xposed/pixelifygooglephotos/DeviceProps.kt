@@ -120,6 +120,14 @@ object DeviceProps {
         Features("Pixel 2024 mid-year",
             "com.google.android.feature.PIXEL_2024_MIDYEAR_EXPERIENCE",
         ),
+
+        Features("Pixel 2025",
+            "com.google.android.feature.PIXEL_2025_EXPERIENCE",
+        ),
+
+        Features("Pixel 2025 mid-year",
+            "com.google.android.feature.PIXEL_2025_MIDYEAR_EXPERIENCE",
+        ),
     )
 
     /**
@@ -168,6 +176,8 @@ object DeviceProps {
         AndroidVersion("S 12.0", "12", 31),
         AndroidVersion("T 13.0", "13", 33),
         AndroidVersion("U 14.0", "14", 34),
+        AndroidVersion("V 15.0", "15", 35),
+        AndroidVersion("B 16.0", "16", 36),
     )
 
     /**
@@ -336,6 +346,50 @@ object DeviceProps {
             ),
             "Pixel 2023 mid-year",
             getAndroidVersionFromLabel("U 14.0"),
+        ),
+
+        DeviceEntries(
+            "Pixel 9 Pro (wip)", hashMapOf(
+                Pair("BRAND", "google"),
+                Pair("MANUFACTURER", "Google"),
+                Pair("DEVICE", "caiman"),
+                Pair("PRODUCT", "caiman"),
+                Pair("HARDWARE", "caiman"),
+                Pair("BOARD", "caiman"),
+                Pair("MODEL", "Pixel 9 Pro"),
+                Pair("ID", "BP2A.250805.005"),
+                Pair("DISPLAY", "caiman-user 16 BP2A.250805.005 13691446 release-keys"),
+                Pair("FINGERPRINT", "google/caiman/caiman:16/BP2A.250805.005/13691446:user/release-keys"),
+                Pair("TYPE", "user"),
+                Pair("TAGS", "release-keys"),
+                Pair("BOOTLOADER", "ripcurrentpro-14.6-11568960"),
+                Pair("SOC_MANUFACTURER", "Google"),
+                Pair("SOC_MODEL", "Tensor G4"),
+            ),
+            "Pixel 2024 mid-year",
+            getAndroidVersionFromLabel("B 16.0"),
+        ),
+
+        DeviceEntries(
+            "Pixel 10 Pro XL (wip)", hashMapOf(
+                Pair("BRAND", "google"),
+                Pair("MANUFACTURER", "Google"),
+                Pair("DEVICE", "mustang"),
+                Pair("PRODUCT", "mustang"),
+                Pair("HARDWARE", "mustang"),
+                Pair("BOARD", "mustang"),
+                Pair("MODEL", "Pixel 10 Pro XL"),
+                Pair("ID", "BD3A.250721.001.A1"),
+                Pair("DISPLAY", "mustang-user 16 BD3A.250721.001.A1 13691446 release-keys"),
+                Pair("FINGERPRINT", "google/mustang/mustang:16/BD3A.250721.001.A1/13691446:user/release-keys"),
+                Pair("TYPE", "user"),
+                Pair("TAGS", "release-keys"),
+                Pair("BOOTLOADER", "ripcurrentpro-14.6-11568960"),
+                Pair("SOC_MANUFACTURER", "Google"),
+                Pair("SOC_MODEL", "Tensor G5"),
+            ),
+            "Pixel 2025 mid-year",
+            getAndroidVersionFromLabel("B 16.0"),
         ),
     )
 
