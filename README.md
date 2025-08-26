@@ -1,5 +1,5 @@
 # Pixelify-Google-Photos
-[![Build and Release](https://github.com/miIiano/Pixelify-Google-Photos/actions/workflows/release.yaml/badge.svg)](https://github.com/miIiano/Pixelify-Google-Photos/actions/workflows/release.yaml)
+[![Build and Release](https://github.com/Eraminel01/Pixelify-Google-Photos/actions/workflows/release.yaml/badge.svg)](https://github.com/Eraminel01/Pixelify-Google-Photos/actions/workflows/release.yaml)
 
 # New changes
 - changed the way of storing feature flags since "MODE_WORLD_READABLE" with "XSharedPreferences" is not working in newly released versions of android versions

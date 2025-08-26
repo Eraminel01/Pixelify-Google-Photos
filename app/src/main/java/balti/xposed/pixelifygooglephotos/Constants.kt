@@ -6,8 +6,8 @@ object Constants {
 
     val TELEGRAM_GROUP = "https://t.me/pixelifyGooglePhotos"
 
-    val UPDATE_INFO_URL = "https://raw.githubusercontent.com/miIiano/Pixelify-Google-Photos/main/update_info.json"
-    val RELEASES_URL = "https://github.com/miIiano/Pixelify-Google-Photos/releases"
+    val UPDATE_INFO_URL = "https://raw.githubusercontent.com/Eraminel01/Pixelify-Google-Photos/main/update_info.json"
+    val RELEASES_URL = "https://github.com/Eraminel01/Pixelify-Google-Photos/releases"
 
     val FIELD_LATEST_VERSION_CODE = "latest_version_code"
 

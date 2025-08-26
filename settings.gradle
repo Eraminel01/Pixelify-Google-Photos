@@ -3,13 +3,7 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
-        maven {
-            url = uri("https://maven.pkg.github.com/miIiano/maven")
-            credentials {
-                username = System.getenv("USER")
-                password = System.getenv("TOKEN")
-            }
-        }
+        maven { url 'https://api.xposed.info/' }
     }
 }
 rootProject.name = "Pixelify Google Photos"
